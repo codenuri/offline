@@ -1,24 +1,40 @@
-[ SECTION2 ] 
-0. WPF 앱 vs .net Framework 차이 설명
-1. 프로젝트 만드는 방법 설명
-2. XAML + CODE 구조 설명
-3. 자동 생성된 코드 설명 ( 숨겨진 파일 설명 )
-4. 윈도우 속성 변경 - MainWndow 에서 코드로 변경, XAML 로 변경
-5. 윈도우 이벤트 처리 - 코드로 등록, XAML로 등록
-6. 새로운 창 추가, 나타내는 방법
-----------------------------------------
-7. 그리드 제어와 컨트롤을 추가후 이벤트 처리
-8. Name vs x:Name 소개 - 차이점은 뒤에서 설명
-----------------------------------------
-Puzzle Game - 4개의 영상 - 40분
 
-1시간
---------------------------------------
-3. Layout 예제 - 1시간 30분
--------------------------------------------------
-4. ROUTED EVENT
-5. CONTROL			2시간
-------------------------------------------------
-토 : 6-7 촬영
-일 : 8-9 촬영
+
+https://devkyunghoon.tistory.com/entry/WPF-Template%EA%B3%BC-Presenter%EA%B0%80-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C-%CE%B1-Binding
+
+<DAY2 시나리오>
+
+(1) XAML - 2시간
+1. Namespace 이야기
+2. Name vs x:Name
+3. MARKUP
+4. EVENT TRIGGER
+        <Button Content="OK" x:Name="button1">
+            <Button.Triggers>
+                <EventTrigger RoutedEvent="Mouse.MouseEnter">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation Duration="0:0:0.2" Storyboard.TargetProperty="FontSize" To="22"/>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+            </Button.Triggers>
+        </Button>
+
+
+(2) RESOURCE & STYLE - 2시간
+
+
+(3) ROUTED EVENT - 1시간
+
+
+(4) LAYOUT - 3시간
+
+------------------------------------
+
+
+
+
 
