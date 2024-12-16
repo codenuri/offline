@@ -1,0 +1,24 @@
+오전 - 2:30
+
+1. WIZARD CODE 구조 
+2. MULTIPLE WINDOW
+3. XAML 자세히
+   	=> TITLE, BACKGROUND, GRADIENT COLOR
+	=> InitializeComponent() 전후 효과
+	=> Name 가 xName
+ 	=> XAML NAMESPACE - System:String - ListBox
+	=> Car 생성	- ListBox
+
+xmlns:system="clr-namespace:System;assembly=mscorlib"
+
+=> 다양한 Collection 이 존재. 어떤 타입을 보관하는지 정리할것
+
+4. CUSTOM MARKUP
+=> {} 이야기
+=> 생성자 인자로, Property 에 대해서 이야기 할것
+
+
+5. LAYOUT - 2시간
+-----------------------
+6. EVENT - 1시간
+7. Resource & STYLE - 2시간
